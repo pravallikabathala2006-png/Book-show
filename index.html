@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My BookMyShow</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><h1>🎬 My BookMyShow</h1><p>Movie Ticket Booking</p></header>
+<div class="booking-box">
+<h2>Book Your Movie</h2>
+<label>Select Movie</label>
+<select id="movie">
+<option value="">-- Select Movie --</option>
+<option>Avengers</option><option>Pushpa 2</option><option>RRR</option><option>Kalki 2898 AD</option>
+</select>
+<label>Select Theatre</label>
+<select id="theatre">
+<option value="">-- Select Theatre --</option>
+<option>PVR Cinemas</option><option>INOX</option><option>Cinepolis</option>
+</select>
+<label>Select Show Time</label>
+<select id="time">
+<option value="">-- Select Time --</option>
+<option>10:00 AM</option><option>2:00 PM</option><option>6:00 PM</option><option>9:00 PM</option>
+</select>
+<label>Select Seats</label>
+<select id="seats">
+<option value="">-- Select Seats --</option>
+<option value="1">1 Seat</option><option value="2">2 Seats</option><option value="3">3 Seats</option><option value="4">4 Seats</option><option value="5">5 Seats</option>
+</select>
+<button id="bookButton">Book Ticket</button>
+<div id="confirmation"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
